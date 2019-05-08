@@ -1,0 +1,20 @@
+{
+  "Version": "1.0",
+  "IdentityManager": {
+    "Default": {}
+  },
+  "CredentialsProvider": {
+    "CognitoIdentity": {
+      "Default": {
+        "PoolId": "us-east-1:d098f1d5-d8ae-4f63-9c7f-c1483f00f7a7",
+        "Region": "us-east-1"
+      }
+    }
+  },
+  "S3TransferUtility": {
+    "Default": {
+      "Bucket": "savemynote-app",
+      "Region": "us-east-1"
+    }
+  }
+}
